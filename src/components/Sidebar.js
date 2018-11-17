@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import '../assets/css/sidebar.css';
 import 'materialize-css';
 
+
+const stars = require('../assets/images/stars.jpeg');
+const saleh = require('../assets/images/saleh.jpeg');
 
 class Sidebar extends Component {
 
@@ -12,9 +16,9 @@ class Sidebar extends Component {
                         <li>
                             <div className="user-view">
                                 <div className="background">
-                                    <img src="../../public/assets/images/starsblue.jpeg" />
+                                    <img src={stars} />
                                 </div>
-                                <a><img className="circle" src="" /></a>
+                                <a><img className="circle" src={saleh} /></a>
                                 <a><span className="white-text name">Saleh Nazih</span></a>
                                 <a><span className="white-text email">saleh.nazih.dev@gmail.com</span></a>
                             </div>
