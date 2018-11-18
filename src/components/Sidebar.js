@@ -19,15 +19,16 @@ class Sidebar extends Component {
                                     <img src={stars} />
                                 </div>
                                 <a><img className="circle" src={saleh} /></a>
-                                <a><span className="white-text name">Saleh Nazih</span></a>
+                                <a><span className="white-text name">Saleh Nazih, 21 anos</span></a>
                                 <a><span className="white-text email">saleh.nazih.dev@gmail.com</span></a>
                             </div>
                         </li>
-                        <li><a href="#!"><span className="nav-font">Quem sou eu?</span></a></li>
-                        <li><a href="#!"><span className="nav-font">Formação Acadêmica</span></a></li>
-                        <li><a href="#!"><span className="nav-font">Experiência</span></a></li>
-                        <li><a href="#!"><span className="nav-font">Projetos</span></a></li>
-                        <li><a href="#!"><span className="nav-font">Conhecimentos</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Quem sou eu?</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Formação Acadêmica</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Experiência</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Projetos</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Conhecimentos</span></a></li>
+                        <li className="bottom-effect"><a href="#!"><span className="nav-font">Interesses</span></a></li>
                     </div>
                 </ul>
             </div>
