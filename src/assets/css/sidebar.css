@@ -1,0 +1,17 @@
+.nav-font{
+    color: #00858b;
+}
+
+
+.bottom-effect::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00858b;
+    transition: width .6s;
+}
+
+.bottom-effect:hover::after {
+    width: 100%;
+}
