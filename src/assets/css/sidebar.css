@@ -15,3 +15,13 @@
 .bottom-effect:hover::after {
     width: 100%;
 }
+
+.image-icon{
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.image-box{
+    padding: 0 2em 0 2em;
+    margin-top: 3em;
+}
