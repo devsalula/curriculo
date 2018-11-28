@@ -6,6 +6,7 @@ import 'materialize-css';
 const stars = require('../assets/images/stars.jpeg');
 const saleh = require('../assets/images/saleh.jpeg');
 const github = require('../assets/images/github-icon.svg')
+const linkedin = require('../assets/images/linkedin.png')
 
 const Sidebar = () => (
 
@@ -31,7 +32,10 @@ const Sidebar = () => (
                 <li >
                     <div className="image-box">
                         <a href="https://github.com/devsalula" target="_blank">
-                            <img className="image-icon" src={github} />
+                            <img className="image-icon icon-effect" src={github} />
+                        </a>
+                        <a href="image-box" href="https://www.linkedin.com/in/saleh-nazih-abdel-kader-801b0716a" target="_blank">
+                            <img className="image-icon icon-effect" src={linkedin} />
                         </a>
                     </div>
                 </li>
