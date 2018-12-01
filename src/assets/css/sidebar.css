@@ -2,7 +2,6 @@
     color: #00858b;
 }
 
-
 .bottom-effect::after {
     content: '';
     display: block;
@@ -30,4 +29,9 @@
 
 .icon-effect:hover{
     fill:#00858b;
+}
+
+a.icon-minus__radius{
+    width:0;
+    height: 0;
 }
