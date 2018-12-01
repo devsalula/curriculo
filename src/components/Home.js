@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import Sidebar from '../components/Sidebar'
+import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 
 class Home extends Component {
+
     render(){
         return(
-            <Sidebar />
+            <div>
+                <Sidebar />
+                <Footer />
+            </div>
         );
     }
+
 }
 
 export default Home;
