@@ -23,12 +23,11 @@
 
 .image-box{
     display: flex;
-    padding: 0 2em 0 2em;
+    padding: 0 3em 0 2em;
     margin-top: 3em;
     justify-content: space-evenly;
 }
 
 .icon-effect:hover{
-    background-color: #00848bd3;
-    border-radius: 49px;
+    fill:#00858b;
 }

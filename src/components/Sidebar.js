@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import '../assets/css/sidebar.css';
 import 'materialize-css';
-
+import SVGIcon from './SVGIcon'
 
 const stars = require('../assets/images/stars.jpeg');
 const saleh = require('../assets/images/saleh.jpeg');
-const github = require('../assets/images/github-icon.svg')
-const linkedin = require('../assets/images/linkedin.png')
+
 
 const Sidebar = () => (
 
@@ -29,13 +28,13 @@ const Sidebar = () => (
                 <li className="bottom-effect"><a href="#!"><span className="nav-font">Projetos</span></a></li>
                 <li className="bottom-effect"><a href="#!"><span className="nav-font">Conhecimentos</span></a></li>
                 <li className="bottom-effect"><a href="#!"><span className="nav-font">Interesses</span></a></li>
-                <li >
+                <li>
                     <div className="image-box">
                         <a href="https://github.com/devsalula" target="_blank">
-                            <img className="image-icon icon-effect" src={github} />
+                            <SVGIcon icon='git' />
                         </a>
                         <a href="image-box" href="https://www.linkedin.com/in/saleh-nazih-abdel-kader-801b0716a" target="_blank">
-                            <img className="image-icon icon-effect" src={linkedin} />
+                            <SVGIcon icon='link' />
                         </a>
                     </div>
                 </li>
