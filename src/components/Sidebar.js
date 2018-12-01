@@ -21,9 +21,9 @@ class Sidebar extends Component {
                         <li>
                             <div className="user-view">
                                 <div className="background">
-                                    <img src={stars} />
+                                    <img alt="Star Img" src={stars} />
                                 </div>
-                                <img className="circle" src={saleh} />
+                                <img className="circle" alt="Saleh Img" src={saleh} />
                                 <span className="white-text name">Saleh Nazih, 21 anos</span>
                                 <span className="white-text email">saleh.nazih.dev@gmail.com</span>
                             </div>
