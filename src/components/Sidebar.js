@@ -7,8 +7,6 @@ import SVGIcon from './SVGIcon'
 const stars = require('../assets/images/stars.jpeg');
 const saleh = require('../assets/images/saleh.jpeg');
 
-console.log(React.version)
-
 class Sidebar extends Component {
     
     showSettings (event) {
