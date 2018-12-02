@@ -2,7 +2,6 @@ import React from 'react';
 import '../assets/css/sidebar.css';
 
 const SVGIcon = (props) => {
-    // console.log(typeof props.icon)
     if(props.icon === 'git'){
         return(
             <svg xmlns="http://www.w3.org/2000/svg" className="icon image-icon icon-effect" viewBox="0 0 512 512">

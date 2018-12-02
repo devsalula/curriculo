@@ -19,7 +19,7 @@
     to {background-position:-10000px 5000px;}
 }
 
-.stars, .twinkling, .glitch, .name-position, .apresentation-text, .image-icon{
+.stars, .twinkling, .glitch, .name-position, .apresentation-text{
   position:absolute;
   top:0;
   left:0;
@@ -149,14 +149,4 @@ h1.glitch:after{
     background:black;
     clip:rect(0,900px,0,0); 
     animation:noise-anim 2s infinite linear alternate-reverse;
-}
-
-.icon-effect{
-    fill:#00858b;
-}
-
-.image-icon{
-    width: 2.3em;
-    height: 2.3em;
-    z-index: 1;
 }
