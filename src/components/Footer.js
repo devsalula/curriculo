@@ -5,9 +5,9 @@ import '../assets/css/footer.css'
 const Footer = () => {
 
     return(
-        <footer class="page-footer black">
-            <div class="footer-copyright">
-                <div class="container center">
+        <footer className="page-footer black">
+            <div className="footer-copyright">
+                <div className="container center">
                     © 2018 Copyright Saleh Nazih
                 </div>
             </div>

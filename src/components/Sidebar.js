@@ -24,8 +24,8 @@ class Sidebar extends Component {
                                     <img alt="Star Img" src={stars} />
                                 </div>
                                 <img className="circle" alt="Saleh Img" src={saleh} />
-                                <span className="white-text name">Saleh Nazih, 21 anos</span>
-                                <span className="white-text email">saleh.nazih.dev@gmail.com</span>
+                                <span className="name">Saleh Nazih, 21 anos</span>
+                                <span className="email">saleh.nazih.dev@gmail.com</span>
                             </div>
                         </li>
                         <li className="bottom-effect"><a href="#!"><span className="nav-font">Quem sou eu?</span></a></li>
@@ -36,10 +36,10 @@ class Sidebar extends Component {
                         <li className="bottom-effect"><a href="#!"><span className="nav-font">Interesses</span></a></li>
                         <li>
                             <div className="image-box">
-                                <a className="icon-minus__radius" href="https://github.com/devsalula" target="_blank">
+                                <a className="icon-minus__radius" href="https://github.com/devsalula" rel='noreferrer noopener' target="_blank">
                                     <SVGIcon icon='git' />
                                 </a>
-                                <a className="icon-minus__radius" href="https://www.linkedin.com/in/saleh-nazih-abdel-kader-801b0716a" target="_blank">
+                                <a className="icon-minus__radius" href="https://www.linkedin.com/in/saleh-nazih-abdel-kader-801b0716a" rel='noreferrer noopener' target="_blank">
                                     <SVGIcon icon='link' />
                                 </a>
                             </div>

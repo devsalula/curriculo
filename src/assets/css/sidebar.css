@@ -38,10 +38,10 @@ a.icon-minus__radius{
 
 .bm-burger-button {
     position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
+    width: 1.5em;
+    height: 1em;
+    left: 2.25em;
+    top: 2.25em;
 }
 
 .bm-burger-bars {
