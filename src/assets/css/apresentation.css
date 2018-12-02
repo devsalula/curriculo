@@ -1,5 +1,5 @@
-.background-black{
-    height: 100em;
+.background-space{
+  height: 43em;
 }
 
 @keyframes move-twink-back {
@@ -47,7 +47,7 @@
 
 .name-position{
     display: flex;
-    margin-top: 10em;
+    margin-top: 9em;
     width: 100%;
     height: 30%;
 }
@@ -55,7 +55,7 @@
 .apresentation-text{
     display: flex;
     z-index: 1;
-    margin: 150px 0em 39px 0em;
+    margin: 8em 0em 0em 0em;
     font-family: 'Raleway', sans-serif;
     color: #00858b;
     font-size: 1.3em;

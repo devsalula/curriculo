@@ -1,0 +1,13 @@
+.size-block{
+    background-color: #212121;
+    height: 100%;
+}
+
+.color-font{
+    display: flex;
+    color: #00858b;
+    font-family: 'Raleway bold', sans-serif;
+    margin-top: 0;
+    padding-top: 1em; 
+    justify-content: center;
+}

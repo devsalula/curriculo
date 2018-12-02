@@ -1,12 +1,12 @@
 import React from 'react';
-import '../assets/css/Apresentation.css'
+import '../assets/css/apresentation.css'
 import 'materialize-css';
 
 const Apresentation = () => {
 
     return (
-        <div className="row">
-            <div className="background-black">
+        <div className="row background-space">
+            <div>
                 <div className="stars"></div>
                 <div className="twinkling"></div>
             </div>
