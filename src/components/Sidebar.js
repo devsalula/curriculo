@@ -24,7 +24,7 @@ class Sidebar extends Component {
                                     <img alt="Star Img" src={stars} />
                                 </div>
                                 <img className="circle" alt="Saleh Img" src={saleh} />
-                                <span className="name">Saleh Nazih, 21 anos</span>
+                                <span className="name">Saleh Kader, 21 anos</span>
                                 <span className="email">saleh.nazih.dev@gmail.com</span>
                             </div>
                         </li>
