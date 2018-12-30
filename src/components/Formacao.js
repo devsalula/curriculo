@@ -20,6 +20,16 @@ const Formacao = () => {
             </div>
             <div>
                 <h2 className="color-font">Experiência</h2>
+                <ol className="list-text_style">
+                    <li>
+                        Orc'estra Gamificação
+                        <ul className="list-subtext_style">
+                            <li>Assessor de Negócios: 2017-2018</li>
+                            <li>Assessor de Projetos: 2018-2018</li>
+                            <li>Presidente Organizacional: 2019-Atualmente</li>
+                        </ul>
+                    </li>
+                </ol>
             </div>
         </div>
     );
